@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/407dd94adc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/f img.jpg" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Project">My Project</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi,I'm Fahad <br> Masroor from India</h1>
+                <h1>I'm <span class="auto-text"></span>
+                    <spanc class="typed-cursor" aria-hidden="true"></span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------About-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-left">
+                    <img src="Images/fahad.jpg">
+                </div>
+                <div class="about-col-right">
+                    <h1 class="sub-title fa-fade">About Me</h1>
+                    <p>Hi My name is <span>Fahad Masroor</span> and I am a <span>Front End Web Developer</span>. I am a
+                        passionate and motivated front-end web developer who has recently embarked on a journey to make
+                        the digital world more interactive, visually appealing, and user-friendly. As a fresh graduate
+                        with a deep enthusiasm for web development, I bring a strong foundation in front-end
+                        technologies and a commitment to continuous learning and growth in this dynamic field.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links " onclick="opentab('skills')"><b>Skills</b></p>
+                        <p class="tab-links " onclick="opentab('education')"><b>Education</b></p>
+                    </div>
+                    <br><br>
+                    <div class="tab-contents active-tab" id="skills">
+                        <div>
+                            <h3>HTML</h3><progress id="file" value="80" max="100"> 80% </progress>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>CSS</h3><progress id="file" value="70" max="100"> 70% </progress>
+                        </div>
+                        <div>
+                            <h3>Bootstrap</h3><progress id="file" value="70" max="100"> 70% </progress>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>JavaScripts</h3><progress id="file" value="60" max="100"> 60% </progress>
+                        </div>
+                        <br>
+                        <div>
+                            <h3>React js</h3><progress id="file" value="50" max="100">45%</progress>
+                        </div>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span><b><u>2018</u></b></span><br><br><b>Matriculation</b></li>
+                            <br><br>
+                            <li><span><b><u>2022</u></b></span><br><b> Diploma/Intermediate</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------- Services Section---------------------------------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title fa-fade">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-flip"></i>
+                    <h2><b>Web Design</b></h2>
+                    <p>Web design is the process of creating the visual layout and user interface of a website, focusing
+                        on elements like layout, color, and navigation to enhance user experience
+                        and achieve the site’s goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop fa-beat-fade"></i>
+                    <h2><b>UI/UX Design</b></h2>
+                    <p>UI design focuses on the visual aspects, such as layout, buttons,
+                        and icons, while UX design emphasizes the overall feel and ease of use,
+                        ensuring a seamless interaction between the user and the product.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-web-awesome fa-flip"></i>
+                    <h2><b>Web Development</b></h2>
+                    <p>Web development involves building and maintaining websites, focusing on coding and programming to
+                        create functional, interactive, and responsive sites. It encompasses both front-end and back-end
+                        development to ensure user experience and performance.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------My Project------------------------------------------------->
+    <div id="Project">
+        <div class="container">
+            <h1 class="sub-title fa-fade">My Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/img1.avif" alt="Web Design">
+                    <div class="layer">
+                        <h3>Dev</h3>
+                        <p>A developer creates and maintains software applications, focusing on coding, debugging, and
+                            optimizing to meet user needs and performance standards</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square fa-beat"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/img 2.avif" alt="UI/UX">
+                    <div class="layer">
+                        <h3>Devices</h3>
+                        <p>Devices are tools or machines designed to perform specific tasks, ranging from smartphones
+                            and computers to household appliances and industrial equipment</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square fa-beat"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/img 3.avif" alt="WebDev">
+                    <div class="layer">
+                        <h3>Tech</h3>
+                        <p>Tech encompasses tools, devices, and systems created through scientific and engineering
+                            advances to solve problems, improve efficiency, and enhance life</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square fa-beat"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn fa-beat">See More</a>
+        </div>
+    </div>
+
+    <!-------------------------Contact Us------------------------>
+    <div id="contact">
+        <div class="caontainer">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title fa-fade">Contact Us</h1>
+                    <p> <i class="fa-solid fa-envelope fa-beat"></i> fahadmasrur786@gmail.com</p>
+                    <p><i class="fa-solid fa-phone fa-shake"></i>7563987828</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/fahadi04"><i class="fa-brands fa-github fa-beat"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/fahad-masroor-1b3376216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin fa-beat"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-beat"></i></a>
+                    </div>
+                    <a href="#" download class="fa-solid btn btn2 fa-beat "><b>Download CV</b></a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Messages"></textarea>
+                        <button type="submit" class="btn btn2 fa-beat"> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------footer------------------------------------------------->
+    <footer>
+        <div class="footer">
+            <div class="footer-bottom">
+                &copy; Designed by Fahad Masroor
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
