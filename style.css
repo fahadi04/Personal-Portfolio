@@ -102,7 +102,6 @@ nav ul li a:hover::after {
 .about-col-left {
     flex-basis: 35%;
     /*width of the column*/
-
 }
 
 .about-col-left img {
