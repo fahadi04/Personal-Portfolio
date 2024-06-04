@@ -23,6 +23,7 @@ body {
 }
 
 .container {
+    height: 100vh;
     padding: 10px 10%;
 
 }
@@ -32,7 +33,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* position: fixed; */
 }
 
 .logo {
