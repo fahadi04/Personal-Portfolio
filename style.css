@@ -301,6 +301,7 @@ nav ul li a:hover::after {
 /* -------------------contact------------------- */
 
 .contact-left {
+    margin-left: 12px;
     flex-basis: 30%;
 }
 
@@ -469,5 +470,9 @@ nav .fa-solid {
     .contact-left,
     .contact-right {
         flex-basis: 100%;
+    }
+
+    .contact-left {
+        margin-left: 1.5rem;
     }
 }
